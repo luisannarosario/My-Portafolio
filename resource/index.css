@@ -1,0 +1,468 @@
+@media only screen and (max-width: 600px ) {
+    body{
+        color: black;
+        font-size: 16px;
+        margin: 0px;
+        font-family: sans-serif;
+    }
+    
+    header{ 
+        text-align: left;
+        text-decoration: underline;
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 2rem 1rem 0rem !important;
+        text-decoration: none !important;
+    }
+    
+    .header-blue {
+        color: black;
+        font-size: 1rem;
+        padding: 0rem 0rem 0rem 2rem !important;
+        text-decoration-line: none;
+        
+    }
+    
+    #contact-link {
+        padding: 1rem 1rem 1rem 1rem !important;
+        background-color: #69f4fb;
+        margin: 0rem 0rem 0rem 0rem !important;
+        border-radius: 5rem;
+    }
+    
+    .contacts {
+        text-decoration: none !important;
+        color: black;
+    }
+    
+    .content-one {
+        margin: 0rem 0rem 2rem 2rem;
+    }
+    
+    #content-photo-presentation {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+        }
+    
+    #My-imagene {
+        font-size: 2rem;
+        width: 60%;
+        height: 95%;
+        margin: 1rem 2rem 0rem 3rem;
+        border-radius: 12rem;
+    }
+    
+    #Presentation {
+        margin: 3rem 2rem 1rem 0.6rem;
+    }
+    
+    #description {
+        width: 60%;
+        margin: 0rem 0rem 4rem 0rem;
+    }
+    
+    .letter-capital {
+        font-size: 3rem;
+        font-family: FF Magda Clean Mono OT Regular;
+        color: black;
+    }
+    
+    .letter-capital-2 {
+        font-size: 3rem;
+        font-family: FF Magda Clean Mono OT Regular;
+        color: black;
+        margin: 3rem 0rem 0rem 2.7rem !important;
+    }
+    
+    .letter-capital-negrita {
+        font-size: 3rem;
+        font-family: FF Magda Clean Mono OT Regular;
+        font-weight: bolder; 
+        color: #efb810; 
+        margin: 0rem 0rem 0rem 3rem;
+    }
+    
+    .first {
+        display: flex;
+    }
+    
+    #seconds {
+        display: flex;
+    }
+
+
+#projects {
+    display: flex;
+    margin: 2rem 0rem 0rem 2rem !important;
+    justify-content: center;
+    flex-direction: column !important;
+}
+
+.name-projects {
+    font-size: 1.5rem;
+    margin: 1rem 0rem 1rem 0rem;
+    font-weight: lighter;
+    font-family: 'FF Magda Clean Mono OT Regular';
+}
+
+.imagen-projects {
+    font-size: 2rem;
+    width: 90%;
+    height: 90%;
+    margin: 2rem 0rem 0rem 0rem !important;
+    border-radius: 27px;
+}
+
+.content-projects-one {
+    box-shadow: 4px 5px 15px #69f4fb;
+    /* border-radius: 60px; */
+    width: 70% !important;
+    height: 70% !important;
+    margin: 2rem 5rem 2rem 5rem !important;
+    text-align: center;
+}
+
+.content-projects-two {
+    box-shadow: 4px 5px 15px #69f4fb;
+    /* border-radius: 60px; */
+    width: 70% !important;
+    height: 70% !important;
+    margin: 2rem 5rem 2rem 5rem !important;
+    text-align: center;
+}
+
+.content-projects-three {
+    box-shadow: 4px 5px 15px #69f4fb;
+    /* border-radius: 60px; */
+    width: 70% !important;
+    height: 70% !important;
+    margin: 2rem 5rem 2rem 5rem !important;
+    text-align: center;
+}
+
+#contacts {
+    margin: 4rem 0rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column !important;
+}  
+
+.number-correo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.botonF1{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    font-size:36px;
+    box-shadow: none !important;
+    transition:.3s;  
+    position: fixed;
+    cursor: not-allowed !important;
+    background-color: white !important;
+    pointer-events:none !important;
+  }
+
+  .botonF2{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    bottom: 0;
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 36px;
+    box-shadow: none !important;
+    transition: .3s;
+    position: fixed;
+    margin: 0rem 0rem 1rem 2rem;
+    cursor: not-allowed !important;
+    background-color: white !important;
+    pointer-events:none !important;
+  }
+
+  }
+
+
+@font-face {
+    font-family: 'FF Magda Clean Mono OT Regular';
+    /* Antes de descargar el archivo, le decimos al buscador
+    que intente buscar en local la fuente con nombre
+    Cabin, Cabin Regular o Cabin-Regular */
+    src: local('FF Magda Clean Mono OT Regular'),
+         url(../../../../Downloads/FF-Magda-Mono-OT-Regular.ttf) format('truetype');
+  }
+
+body{
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{ 
+    text-align: left;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 2rem 2rem;
+    text-decoration: none !important;
+}
+
+.header-blue {
+    color: black;
+    font-size: 1rem;
+    padding: 0rem 0rem 0rem 4rem;
+    text-decoration-line: none;
+    
+}
+
+#contact-link {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #69f4fb;
+    margin: 0rem 7rem 0rem 0rem;
+    border-radius: 5rem;
+}
+
+.contacts {
+    text-decoration: none !important;
+    color: black;
+}
+
+.content-one {
+    margin: 0rem 0rem 2rem 2rem;
+}
+
+#content-photo-presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-evenly;
+
+    }
+
+#My-imagene {
+    font-size: 2rem;
+    width: 60%;
+    height: 95%;
+    margin: 1rem 2rem 0rem 3rem;
+    border-radius: 12rem;
+}
+
+#Presentation {
+    margin: 3rem 2rem 1rem 0.6rem;
+}
+
+#description {
+    width: 60%;
+    margin: 0rem 0rem 4rem 0rem;
+}
+
+.letter-capital {
+    font-size: 3rem;
+    font-family: FF Magda Clean Mono OT Regular;
+    color: black;
+}
+
+.letter-capital-2 {
+    font-size: 3rem;
+    font-family: FF Magda Clean Mono OT Regular;
+    color: black;
+    margin: 4rem 0rem 0rem 5.7rem;
+}
+
+.letter-capital-negrita {
+    font-size: 3rem;
+    font-family: FF Magda Clean Mono OT Regular;
+    font-weight: bolder; 
+    color: #efb810; 
+    margin: 0rem 0rem 0rem 3rem;
+}
+
+.first {
+    display: flex;
+}
+
+#seconds {
+    display: flex;
+}
+
+.form-square {
+    border-radius: 0.5rem;
+    background: #69f4fb;
+    width: 32%;
+    box-shadow: 4px 5px 15px #afdaf5;
+    margin: 0.1rem 1rem 1rem 0rem;
+    text-align: center;
+    padding: 0.4rem
+}
+
+.company-link{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin: 0rem ;
+    text-decoration: none;
+}
+
+.company-link:hover, .header-blue:hover, .contacts:hover, .link-favicon:hover{
+    color: rgb(171, 171, 169);
+}
+
+#projects {
+    display: flex;
+    margin: 5rem 0rem 4rem 0rem;
+    justify-content: center;
+}
+
+.name-projects {
+    font-size: 1.5rem;
+    margin: 1rem 0rem 1rem 0rem;
+    font-weight: lighter;
+    font-family: 'FF Magda Clean Mono OT Regular';
+}
+
+.imagen-projects {
+    font-size: 2rem;
+    width: 90%;
+    height: 90%;
+    margin: 2rem 1rem 0rem 0rem;
+    border-radius: 27px;
+}
+
+.content-projects-one {
+    box-shadow: 4px 5px 15px #69f4fb;
+    /* border-radius: 60px; */
+    width: 25%;
+    height: 25%;
+    margin: 2rem 2rem 0rem 0rem;
+    text-align: center;
+}
+
+.content-projects-two {
+    box-shadow: 4px 5px 15px #69f4fb;
+    /* border-radius: 60px; */
+    width: 25%;
+    height: 25%;
+    margin: 8rem 2rem 0rem 0rem;
+    text-align: center;
+}
+
+.content-projects-three {
+    box-shadow: 4px 5px 15px #69f4fb;
+    /* border-radius: 60px; */
+    width: 25%;
+    height: 25%;
+    margin: 15rem 2rem 0rem 0rem;
+    text-align: center;
+}
+
+/* #content-contacts {
+    height: 25rem;
+    width: 100%;
+    margin: 0rem;
+    background-color: black;
+    text-align: center;
+}*/
+
+#contacts {
+    /* width: 100%; */
+    margin: 6rem 0rem;
+    /* background-color: #69f4fb; */
+    /* text-align: justify; */
+    display: flex;
+    justify-content: space-evenly;
+}  
+
+.link-favicon {
+    color: #69f4fb;
+    text-decoration: none;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.number-correo {
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    margin: 0rem 1rem 0rem 0rem;
+    font-size: 2rem;
+    color: #69f4fb;
+}
+
+.footer{
+    font-size: 0.75rem;
+    color: black;
+    margin: 0rem;
+    font-family: 'FF Magda Clean Mono OT Regular';
+}
+
+.contenedor{
+    width:90px;
+    height:240px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+  }
+  .botonF1{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background: black;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    position: fixed;
+  }
+
+  .botonF2{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: black;
+    bottom: 0;
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    transition: .3s;
+    position: fixed;
+    margin: 0rem 0rem 1rem 2rem;
+  }
+
+  span{
+    transition:.5s;  
+  }
+  .botonF1:hover span{
+    transform:rotate(360deg);
+  }
+  .botonF1:active{
+    transform:scale(1.1);
+  }
+
+  i{
+    margin: 0rem;
+  }
+
